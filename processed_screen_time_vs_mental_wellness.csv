@@ -1,0 +1,401 @@
+user_id,age,gender,occupation,work_mode,screen_time_hours,work_screen_hours,leisure_screen_hours,sleep_hours,sleep_quality_1_5,stress_level_0_10,productivity_0_100,mental_wellness_index_0_100,exercise_hours,social_hours,age_group,screen_time_group,work_time_group,leisure_time_group,sleep_hours_group,productivity_group,wellness_group
+U0001,33,Female,Employed,Remote,10.79,5.44,5.35,6.63,1,9,44,9.3,0.3,0.1,Old,Very High,Very High,Low,Moderate,Moderate,Not Favorable
+U0002,28,Female,Employed,In-person,7.4,0.37,7.03,8.05,3,5,78,56.2,0.18,0.3,Young,Moderate,Low,High,Very Long,Very High,Favorable
+U0003,35,Female,Employed,Hybrid,9.78,1.09,8.69,6.48,1,9,51,3.6,0.16,1.14,Old,High,Moderate,Very High,Moderate,High,Not Favorable
+U0004,42,Male,Employed,Hybrid,11.13,0.56,10.57,6.89,1,10,37,0.0,0.0,0.81,Older,Very High,Low,Very High,Moderate,Low,Not Favorable
+U0005,28,Male,Student,Remote,13.22,4.09,9.13,5.79,1,10,38,0.0,0.34,1.44,Young,Very High,Very High,Very High,Short,Low,Not Favorable
+U0006,28,Non-binary/Other,Self-employed,Hybrid,9.83,0.53,9.3,7.19,1,10,44,5.0,0.17,1.47,Young,High,Low,Very High,Long,Moderate,Not Favorable
+U0007,42,Non-binary/Other,,Remote,6.02,2.82,3.2,7.44,2,6,64,43.7,0.34,0.67,Older,Low,High,Low,Long,Very High,Favorable
+U0008,36,Male,Employed,In-person,6.21,0.75,5.46,6.78,2,5,87,54.3,0.12,2.67,Older,Low,Moderate,Low,Moderate,Very High,Favorable
+U0009,26,Male,Student,In-person,6.28,0.67,5.61,8.48,4,1,91,86.8,0.35,1.44,Young,Low,Low,Moderate,Very Long,Very High,Favorable
+U0010,34,Male,Employed,Hybrid,9.37,0.84,8.53,7.78,2,10,42,10.7,0.12,1.81,Old,High,Moderate,Very High,Very Long,Low,Not Favorable
+U0011,26,Male,Student,Remote,9.87,3.02,6.85,6.4,1,8,55,21.8,0.21,0.89,Young,High,Very High,High,Moderate,High,Favorable
+U0012,26,Female,,Hybrid,4.96,0.25,4.71,8.01,3,4,88,74.3,0.45,1.79,Young,Low,Low,Low,Very Long,Very High,Favorable
+U0013,31,Female,Student,Remote,12.55,6.8,5.75,6.96,1,10,33,0.0,0.33,1.61,Old,Very High,Very High,Moderate,Moderate,Low,Not Favorable
+U0014,16,Female,Employed,Remote,7.86,4.33,3.53,7.59,2,6,70,40.9,0.24,1.23,Younger,Moderate,Very High,Low,Long,Very High,Favorable
+U0015,16,Male,Employed,Hybrid,9.07,0.79,8.28,5.54,1,10,53,10.7,0.0,0.0,Younger,Moderate,Moderate,High,Short,High,Not Favorable
+U0016,25,Male,Employed,Hybrid,13.49,2.82,10.67,7.13,1,10,37,0.0,0.68,0.4,Young,Very High,High,Very High,Long,Low,Not Favorable
+U0017,21,Female,Employed,In-person,8.86,0.82,8.04,6.53,1,10,60,10.5,0.53,1.87,Younger,Moderate,Moderate,High,Moderate,High,Not Favorable
+U0018,32,Male,Self-employed,Hybrid,7.13,0.82,6.31,7.06,1,7,49,29.5,0.4,1.66,Old,Low,Moderate,Moderate,Long,Moderate,Favorable
+U0019,22,Male,Student,Hybrid,8.18,0.7,7.48,9.2,3,4,85,68.9,0.12,1.6,Younger,Moderate,Moderate,High,Very Long,Very High,Favorable
+U0020,18,Female,Student,Remote,10.26,5.73,4.53,6.98,1,9,52,10.8,0.2,0.21,Younger,High,Very High,Low,Moderate,High,Not Favorable
+U0021,41,Female,Student,Remote,10.14,3.29,6.85,6.68,1,10,48,0.0,0.15,0.4,Older,High,Very High,High,Moderate,Moderate,Not Favorable
+U0022,28,Male,,Remote,7.52,2.89,4.63,5.49,1,8,53,18.2,0.48,1.89,Young,Moderate,High,Low,Short,High,Favorable
+U0023,30,Male,Self-employed,In-person,7.67,1.65,6.02,8.36,3,5,76,53.5,0.31,1.27,Young,Moderate,High,Moderate,Very Long,Very High,Favorable
+U0024,18,Male,Employed,Remote,5.74,2.33,3.41,6.34,1,3,77,48.7,0.15,2.51,Younger,Low,High,Low,Short,Very High,Favorable
+U0025,25,Male,Employed,In-person,8.93,0.45,8.48,6.21,1,9,50,0.7,0.16,1.21,Young,Moderate,Low,Very High,Short,Moderate,Not Favorable
+U0026,30,Male,Employed,Hybrid,7.05,0.8,6.25,7.08,1,10,51,1.8,0.46,1.23,Young,Low,Moderate,Moderate,Long,Moderate,Not Favorable
+U0027,20,Male,Student,Remote,11.3,5.17,6.13,7.74,2,10,53,4.6,0.47,1.06,Younger,Very High,Very High,Moderate,Very Long,High,Not Favorable
+U0028,33,Male,,In-person,6.61,0.33,6.28,8.06,2,7,60,42.8,0.54,0.5,Old,Low,Low,Moderate,Very Long,High,Favorable
+U0029,25,Male,Employed,Hybrid,7.43,0.73,6.7,7.11,2,7,61,28.9,0.39,0.0,Young,Moderate,Moderate,Moderate,Long,High,Favorable
+U0030,27,Female,Employed,In-person,9.57,0.48,9.09,7.18,1,10,38,0.9,0.19,1.3,Young,High,Low,Very High,Long,Low,Not Favorable
+U0031,25,Female,Employed,In-person,6.37,0.78,5.59,6.91,1,8,52,11.1,0.0,1.27,Young,Low,Moderate,Moderate,Moderate,High,Not Favorable
+U0032,44,Female,Student,Remote,14.35,7.54,6.81,6.5,1,10,42,0.0,0.24,0.73,Older,Very High,Very High,High,Moderate,Low,Not Favorable
+U0033,29,Male,Student,Remote,6.89,1.25,5.64,7.42,1,7,60,17.2,0.28,0.03,Young,Low,Moderate,Moderate,Long,High,Favorable
+U0034,21,Male,Employed,Hybrid,11.38,0.57,10.81,7.38,1,9,57,2.4,0.23,1.63,Younger,Very High,Low,Very High,Long,High,Not Favorable
+U0035,36,Male,Student,In-person,13.05,0.65,12.4,7.28,1,10,39,0.0,0.2,0.6,Older,Very High,Low,Very High,Long,Low,Not Favorable
+U0036,20,Female,Employed,Remote,7.47,3.01,4.46,7.57,1,8,53,14.8,0.04,2.04,Younger,Moderate,High,Low,Long,High,Not Favorable
+U0037,31,Female,Student,Hybrid,9.93,1.89,8.04,6.63,1,9,45,2.2,0.33,2.17,Old,High,High,High,Moderate,Moderate,Not Favorable
+U0038,16,Female,Employed,Hybrid,8.08,1.25,6.83,7.64,3,6,68,57.6,0.35,0.0,Younger,Moderate,Moderate,High,Long,Very High,Favorable
+U0039,19,Female,Employed,In-person,7.88,0.39,7.49,7.03,1,9,49,17.7,0.36,1.09,Younger,Moderate,Low,High,Moderate,Moderate,Favorable
+U0040,31,Male,Employed,Remote,8.81,3.92,4.89,6.22,1,10,51,12.5,0.41,0.81,Old,Moderate,Very High,Low,Short,Moderate,Not Favorable
+U0041,35,Female,Employed,In-person,5.65,0.36,5.29,7.28,2,7,67,35.2,0.4,2.77,Old,Low,Low,Low,Long,Very High,Favorable
+U0042,31,Female,Employed,In-person,9.31,0.65,8.66,7.08,2,8,51,30.4,0.18,0.16,Old,High,Low,Very High,Long,Moderate,Favorable
+U0043,29,Male,Employed,Remote,7.72,5.52,2.2,7.96,3,3,77,62.2,0.25,2.5,Young,Moderate,Very High,Low,Very Long,Very High,Favorable
+U0044,27,Female,Employed,Remote,11.81,4.64,7.17,6.45,1,10,37,0.0,0.22,0.5,Young,Very High,Very High,High,Moderate,Low,Not Favorable
+U0045,18,Female,Employed,In-person,6.71,0.74,5.97,6.31,1,7,58,23.3,0.28,1.14,Younger,Low,Moderate,Moderate,Short,High,Favorable
+U0046,24,Male,,Remote,6.1,1.57,4.53,7.47,1,4,79,53.0,0.45,1.14,Younger,Low,High,Low,Long,Very High,Favorable
+U0047,26,Female,Employed,In-person,7.46,1.45,6.01,7.33,2,8,49,23.7,0.37,1.2,Young,Moderate,Moderate,Moderate,Long,Moderate,Favorable
+U0048,38,Male,Student,Remote,14.22,7.52,6.7,6.5,1,10,34,0.0,0.53,1.99,Older,Very High,Very High,Moderate,Moderate,Low,Not Favorable
+U0049,32,Male,Student,Remote,9.93,3.77,6.16,7.67,2,9,52,18.5,0.6,0.07,Old,High,Very High,Moderate,Very Long,High,Favorable
+U0050,16,Male,Employed,In-person,13.29,0.99,12.3,7.08,1,10,27,0.0,0.18,1.31,Younger,Very High,Moderate,Very High,Long,Low,Not Favorable
+U0051,32,Female,Employed,Hybrid,6.77,0.36,6.41,6.93,1,6,56,27.3,0.0,1.16,Old,Low,Low,Moderate,Moderate,High,Favorable
+U0052,26,Male,Student,Remote,10.25,5.59,4.66,6.33,1,10,38,0.3,0.43,0.77,Young,High,Very High,Low,Short,Low,Not Favorable
+U0053,24,Female,Employed,Hybrid,8.75,1.6,7.15,6.2,1,8,44,0.0,0.15,3.09,Younger,Moderate,High,High,Short,Moderate,Not Favorable
+U0054,34,Female,Employed,Hybrid,10.13,0.51,9.62,7.48,1,9,44,1.5,0.1,0.77,Old,High,Low,Very High,Long,Moderate,Not Favorable
+U0055,38,Female,Employed,Remote,9.47,2.4,7.07,8.22,2,7,60,34.4,0.18,1.46,Older,High,High,High,Very Long,High,Favorable
+U0056,37,Non-binary/Other,Employed,Hybrid,7.57,0.42,7.15,7.08,2,9,51,27.4,0.2,1.64,Older,Moderate,Low,High,Long,Moderate,Favorable
+U0057,23,Female,Student,In-person,6.76,0.55,6.21,7.12,2,5,74,39.1,0.37,0.14,Younger,Low,Low,Moderate,Long,Very High,Favorable
+U0058,27,Female,Student,Remote,7.82,2.5,5.32,8.37,3,6,81,44.1,0.0,2.69,Young,Moderate,High,Low,Very Long,Very High,Favorable
+U0059,32,Male,Employed,Hybrid,11.49,1.1,10.39,7.1,2,7,67,29.9,0.04,0.0,Old,Very High,Moderate,Very High,Long,Very High,Favorable
+U0060,37,Female,Employed,Hybrid,8.89,1.91,6.98,7.49,2,9,40,19.8,0.31,0.87,Older,Moderate,High,High,Long,Low,Favorable
+U0061,26,Female,Employed,In-person,10.09,0.68,9.41,5.89,1,10,46,4.5,0.33,0.8,Young,High,Low,Very High,Short,Moderate,Not Favorable
+U0062,28,Female,Employed,Remote,9.02,2.67,6.35,7.57,1,9,45,2.3,0.35,1.13,Young,Moderate,High,Moderate,Long,Moderate,Not Favorable
+U0063,21,Female,Student,In-person,11.16,1.46,9.7,5.89,1,10,42,3.8,0.07,0.4,Younger,Very High,High,Very High,Short,Low,Not Favorable
+U0064,20,Female,Self-employed,Hybrid,7.3,1.65,5.65,6.3,1,8,51,9.8,0.1,1.1,Younger,Low,High,Moderate,Short,Moderate,Not Favorable
+U0065,36,Female,Employed,Remote,6.95,3.9,3.05,7.14,1,10,48,0.0,0.2,1.13,Older,Low,Very High,Low,Long,Moderate,Not Favorable
+U0066,40,Male,Employed,Remote,5.5,2.5,3.0,7.21,2,2,86,60.6,0.35,0.31,Older,Low,High,Low,Long,Very High,Favorable
+U0067,29,Female,Employed,Remote,11.02,1.59,9.43,6.56,1,10,38,13.2,0.46,0.0,Young,Very High,High,Very High,Moderate,Low,Not Favorable
+U0068,38,Female,Employed,Hybrid,8.47,0.94,7.53,6.06,1,7,50,18.2,0.0,1.43,Older,Moderate,Moderate,High,Short,Moderate,Favorable
+U0069,32,Male,Employed,Hybrid,6.92,1.07,5.85,8.15,3,5,76,57.0,0.24,1.64,Old,Low,Moderate,Moderate,Very Long,Very High,Favorable
+U0070,24,Female,Student,In-person,8.23,0.45,7.78,8.01,2,7,65,30.6,0.03,2.46,Younger,Moderate,Low,High,Very Long,Very High,Favorable
+U0071,32,Male,,Hybrid,7.88,0.39,7.49,5.68,1,7,59,19.6,0.0,0.64,Old,Moderate,Low,High,Short,High,Favorable
+U0072,42,Female,Student,Remote,13.44,6.68,6.76,7.29,1,10,43,5.4,0.36,1.79,Older,Very High,Very High,High,Long,Low,Not Favorable
+U0073,29,Female,,Hybrid,5.41,0.44,4.97,6.93,1,4,68,43.0,0.39,0.79,Young,Low,Low,Low,Moderate,Very High,Favorable
+U0074,42,Female,Employed,In-person,8.6,1.6,7.0,7.92,2,9,56,21.4,0.34,2.21,Older,Moderate,High,High,Very Long,High,Favorable
+U0075,16,Female,Student,Remote,9.13,4.07,5.06,6.84,2,5,74,52.8,0.38,1.83,Younger,High,Very High,Low,Moderate,Very High,Favorable
+U0076,36,Female,Employed,Remote,9.26,4.57,4.69,7.09,1,10,51,5.1,0.17,1.41,Older,High,Very High,Low,Long,Moderate,Not Favorable
+U0077,30,Female,Self-employed,Remote,6.61,1.82,4.79,7.26,1,6,60,19.3,0.21,0.86,Young,Low,High,Low,Long,High,Favorable
+U0078,27,Female,Employed,In-person,3.93,1.02,2.91,8.75,2,2,88,68.4,0.68,2.37,Young,Low,Moderate,Low,Very Long,Very High,Favorable
+U0079,30,Female,Self-employed,Hybrid,11.75,0.88,10.87,5.65,1,10,41,0.0,0.17,1.47,Young,Very High,Moderate,Very High,Short,Low,Not Favorable
+U0080,16,Female,Employed,Hybrid,7.58,0.38,7.2,7.61,2,4,67,61.4,0.37,0.49,Younger,Moderate,Low,High,Long,Very High,Favorable
+U0081,28,Female,Employed,In-person,9.14,1.99,7.15,7.89,1,9,45,11.7,0.25,0.13,Young,High,High,High,Very Long,Moderate,Not Favorable
+U0082,32,Female,Self-employed,In-person,5.44,0.45,4.99,8.18,2,3,88,56.1,0.0,1.01,Old,Low,Low,Low,Very Long,Very High,Favorable
+U0083,41,Female,Student,Remote,9.86,6.39,3.47,8.89,3,8,66,32.6,0.0,2.26,Older,High,Very High,Low,Very Long,Very High,Favorable
+U0084,25,Male,Employed,In-person,8.05,1.1,6.95,6.72,1,7,55,17.5,0.16,1.63,Young,Moderate,Moderate,High,Moderate,High,Favorable
+U0085,23,Female,Student,Remote,7.04,3.5,3.54,8.04,3,4,82,72.6,0.44,0.4,Younger,Low,Very High,Low,Very Long,Very High,Favorable
+U0086,25,Male,,Remote,6.32,1.72,4.6,7.32,2,6,64,30.8,0.41,0.51,Young,Low,High,Low,Long,Very High,Favorable
+U0087,37,Male,,Remote,10.3,2.73,7.57,7.91,1,9,50,12.2,0.39,1.93,Older,High,High,High,Very Long,Moderate,Not Favorable
+U0088,32,Female,Student,Remote,9.24,2.53,6.71,7.03,1,9,46,5.0,0.08,0.64,Old,High,High,High,Moderate,Moderate,Not Favorable
+U0089,25,Male,Employed,Hybrid,8.29,1.0,7.29,6.8,1,6,58,34.5,0.52,1.71,Young,Moderate,Moderate,High,Moderate,High,Favorable
+U0090,34,Male,,In-person,5.52,0.92,4.6,8.66,2,6,68,38.1,0.14,0.84,Old,Low,Moderate,Low,Very Long,Very High,Favorable
+U0091,30,Female,Student,Remote,9.13,2.42,6.71,6.64,1,10,43,0.0,0.28,2.3,Young,High,High,High,Moderate,Moderate,Not Favorable
+U0092,37,Female,Employed,Remote,9.81,2.46,7.35,5.87,1,10,40,0.0,0.24,0.57,Older,High,High,High,Short,Low,Not Favorable
+U0093,24,Male,,Hybrid,7.75,0.96,6.79,6.76,1,8,57,10.7,0.23,2.09,Younger,Moderate,Moderate,High,Moderate,High,Not Favorable
+U0094,27,Male,Student,In-person,7.05,0.62,6.43,7.81,1,8,49,14.4,0.5,0.81,Young,Low,Low,Moderate,Very Long,Moderate,Not Favorable
+U0095,26,Female,Employed,Hybrid,7.83,0.87,6.96,8.3,3,3,95,80.9,0.14,1.24,Young,Moderate,Moderate,High,Very Long,Very High,Favorable
+U0096,18,Female,Employed,Hybrid,10.17,1.01,9.16,6.84,1,10,51,0.0,0.0,0.0,Younger,High,Moderate,Very High,Moderate,Moderate,Not Favorable
+U0097,32,Female,,Remote,7.94,2.93,5.01,8.28,2,8,53,18.7,0.27,0.0,Old,Moderate,High,Low,Very Long,High,Favorable
+U0098,32,Female,,Remote,9.58,3.64,5.94,5.9,1,8,48,6.1,0.18,0.87,Old,High,Very High,Moderate,Short,Moderate,Not Favorable
+U0099,30,Male,,In-person,3.69,0.67,3.02,7.49,1,6,61,30.3,0.89,1.51,Young,Low,Low,Low,Long,High,Favorable
+U0100,28,Female,Employed,In-person,7.58,0.38,7.2,7.01,1,7,53,24.2,0.38,0.61,Young,Moderate,Low,High,Moderate,High,Favorable
+U0101,18,Female,Self-employed,Remote,9.82,5.22,4.6,6.72,1,9,58,10.7,0.15,0.39,Younger,High,Very High,Low,Moderate,High,Not Favorable
+U0102,26,Male,Self-employed,In-person,8.53,0.43,8.1,7.15,1,9,45,6.7,0.07,1.19,Young,Moderate,Low,High,Long,Moderate,Not Favorable
+U0103,27,Female,Employed,Hybrid,7.32,0.61,6.71,7.82,2,5,74,41.4,0.0,1.56,Young,Low,Low,High,Very Long,Very High,Favorable
+U0104,23,Female,Self-employed,In-person,4.3,0.48,3.82,7.33,1,7,66,27.3,0.14,1.16,Younger,Low,Low,Low,Long,Very High,Favorable
+U0105,28,Male,Student,Remote,12.51,6.79,5.72,6.61,1,10,33,2.9,0.21,0.94,Young,Very High,Very High,Moderate,Moderate,Low,Not Favorable
+U0106,33,Male,Employed,Hybrid,4.89,0.62,4.27,7.66,1,4,68,39.9,0.55,0.29,Old,Low,Low,Low,Very Long,Very High,Favorable
+U0107,45,Female,Student,Remote,11.1,4.95,6.15,6.14,1,9,36,8.8,0.42,0.66,Older,Very High,Very High,Moderate,Short,Low,Not Favorable
+U0108,31,Male,Student,Hybrid,10.84,0.58,10.26,6.69,1,10,36,0.3,0.26,2.13,Old,Very High,Low,Very High,Moderate,Low,Not Favorable
+U0109,32,Female,Student,Remote,13.9,5.84,8.06,6.22,2,10,26,8.7,0.13,0.43,Old,Very High,Very High,High,Short,Low,Not Favorable
+U0110,29,Female,Employed,Remote,12.05,2.66,9.39,6.45,1,9,44,4.1,0.25,1.33,Young,Very High,High,Very High,Moderate,Moderate,Not Favorable
+U0111,16,Male,Employed,Hybrid,6.34,0.35,5.99,7.33,2,5,86,54.7,0.18,2.86,Younger,Low,Low,Moderate,Long,Very High,Favorable
+U0112,29,Female,Employed,In-person,11.04,0.85,10.19,6.79,1,10,42,4.7,0.5,0.0,Young,Very High,Moderate,Very High,Moderate,Low,Not Favorable
+U0113,30,Female,Student,Remote,11.19,5.16,6.03,6.38,1,9,35,2.5,0.19,1.64,Young,Very High,Very High,Moderate,Short,Low,Not Favorable
+U0114,49,Female,Employed,Hybrid,10.05,0.5,9.55,8.1,2,7,56,32.0,0.24,1.99,Older,High,Low,Very High,Very Long,High,Favorable
+U0115,28,Female,Employed,In-person,11.94,0.6,11.34,5.65,1,10,37,0.9,0.0,0.81,Young,Very High,Low,Very High,Short,Low,Not Favorable
+U0116,32,Female,Employed,Remote,7.8,4.17,3.63,6.67,1,6,52,14.3,0.24,1.66,Old,Moderate,Very High,Low,Moderate,High,Not Favorable
+U0117,29,Female,Employed,Hybrid,11.23,2.25,8.98,8.93,2,9,55,28.6,0.35,0.0,Young,Very High,High,Very High,Very Long,High,Favorable
+U0118,20,Female,Employed,Hybrid,8.7,1.4,7.3,6.16,1,8,56,2.7,0.06,0.77,Younger,Moderate,Moderate,High,Short,High,Not Favorable
+U0119,39,Female,Self-employed,In-person,1.0,0.11,0.89,7.26,3,0,100,87.2,0.25,2.24,Older,Low,Low,Low,Long,Very High,Favorable
+U0120,36,Male,Employed,Remote,10.12,4.82,5.3,7.53,1,10,47,5.0,0.37,1.8,Older,High,Very High,Low,Long,Moderate,Not Favorable
+U0121,36,Male,Student,Hybrid,10.04,2.11,7.93,5.29,1,10,52,6.1,0.0,2.09,Older,High,High,High,Short,High,Not Favorable
+U0122,22,Male,Student,In-person,6.42,0.32,6.1,7.17,1,6,73,42.7,0.45,2.2,Younger,Low,Low,Moderate,Long,Very High,Favorable
+U0123,41,Male,Self-employed,In-person,9.58,2.08,7.5,8.79,2,6,80,30.5,0.16,0.54,Older,High,High,High,Very Long,Very High,Favorable
+U0124,18,Female,Student,Hybrid,7.77,1.17,6.6,5.88,1,10,40,0.0,0.19,2.43,Younger,Moderate,Moderate,Moderate,Short,Low,Not Favorable
+U0125,34,Female,Self-employed,Hybrid,7.85,1.44,6.41,5.68,1,8,70,8.7,0.08,1.5,Old,Moderate,Moderate,Moderate,Short,Very High,Not Favorable
+U0126,47,Male,Employed,Hybrid,6.0,0.3,5.7,6.47,1,9,49,9.6,0.37,2.34,Older,Low,Low,Moderate,Moderate,Moderate,Not Favorable
+U0127,22,Male,,In-person,9.23,0.73,8.5,7.65,2,4,67,52.1,0.65,1.13,Younger,High,Moderate,Very High,Very Long,Very High,Favorable
+U0128,25,Male,Employed,Hybrid,11.27,1.99,9.28,7.56,3,8,59,41.2,0.34,0.94,Young,Very High,High,Very High,Long,High,Favorable
+U0129,30,Female,,Remote,9.05,5.35,3.7,6.63,1,10,40,0.9,0.1,1.09,Young,Moderate,Very High,Low,Moderate,Low,Not Favorable
+U0130,25,Female,Employed,In-person,8.07,0.75,7.32,7.69,1,7,56,26.9,0.45,0.0,Young,Moderate,Moderate,High,Very Long,High,Favorable
+U0131,17,Female,Employed,Hybrid,5.52,1.16,4.36,8.55,3,3,79,67.8,0.23,0.46,Younger,Low,Moderate,Low,Very Long,Very High,Favorable
+U0132,30,Female,Employed,Hybrid,10.27,0.96,9.31,8.29,3,8,60,33.5,0.46,1.54,Young,High,Moderate,Very High,Very Long,High,Favorable
+U0133,21,Male,Employed,Remote,9.59,4.62,4.97,6.67,1,8,56,6.5,0.36,0.0,Younger,High,Very High,Low,Moderate,High,Not Favorable
+U0134,33,Male,Employed,Hybrid,12.19,2.56,9.63,4.76,1,10,39,0.2,0.0,1.59,Old,Very High,High,Very High,Short,Low,Not Favorable
+U0135,22,Female,Self-employed,Remote,6.09,3.86,2.23,6.75,1,6,64,18.6,0.11,2.27,Younger,Low,Very High,Low,Moderate,Very High,Favorable
+U0136,42,Non-binary/Other,,Hybrid,5.87,0.31,5.56,7.3,1,5,68,43.9,0.46,1.39,Older,Low,Low,Moderate,Long,Very High,Favorable
+U0137,23,Male,Employed,Remote,9.65,3.25,6.4,6.68,1,10,50,4.7,0.25,0.83,Younger,High,Very High,Moderate,Moderate,Moderate,Not Favorable
+U0138,27,Female,Employed,Hybrid,9.13,1.44,7.69,6.85,1,10,34,4.4,0.07,2.63,Young,High,Moderate,High,Moderate,Low,Not Favorable
+U0139,36,Female,Employed,In-person,5.07,1.21,3.86,8.59,2,5,79,45.7,0.2,2.73,Older,Low,Moderate,Low,Very Long,Very High,Favorable
+U0140,20,Female,Employed,Remote,8.14,1.22,6.92,8.1,2,8,56,22.3,0.0,1.07,Younger,Moderate,Moderate,High,Very Long,High,Favorable
+U0141,31,Female,Student,In-person,11.85,1.91,9.94,6.5,1,10,41,2.5,0.19,1.49,Old,Very High,High,Very High,Moderate,Low,Not Favorable
+U0142,40,Female,Student,Remote,10.39,1.58,8.81,7.82,3,6,73,50.3,0.61,1.06,Older,High,High,Very High,Very Long,Very High,Favorable
+U0143,17,Female,Employed,In-person,3.76,0.78,2.98,7.99,2,2,79,60.1,0.44,1.43,Younger,Low,Moderate,Low,Very Long,Very High,Favorable
+U0144,31,Female,Employed,In-person,5.9,0.34,5.56,7.58,2,5,67,49.3,0.66,1.54,Old,Low,Low,Moderate,Long,Very High,Favorable
+U0145,32,Female,Employed,Hybrid,8.76,1.86,6.9,7.83,2,6,54,30.2,0.4,1.43,Old,Moderate,High,High,Very Long,High,Favorable
+U0146,36,Male,Student,Hybrid,12.18,1.91,10.27,6.69,1,10,36,0.0,0.38,1.6,Older,Very High,High,Very High,Moderate,Low,Not Favorable
+U0147,20,Female,Student,In-person,6.31,0.54,5.77,9.0,4,2,100,97.0,0.6,2.56,Younger,Low,Low,Moderate,Very Long,Very High,Favorable
+U0148,19,Male,Student,Remote,8.7,4.17,4.53,5.83,1,10,44,8.0,0.3,0.0,Younger,Moderate,Very High,Low,Short,Moderate,Not Favorable
+U0149,34,Female,,Remote,7.18,1.47,5.71,6.95,1,3,64,43.7,0.25,1.14,Old,Low,High,Moderate,Moderate,Very High,Favorable
+U0150,32,Non-binary/Other,Employed,Hybrid,9.11,0.93,8.18,6.95,1,9,45,20.3,0.42,0.1,Old,High,Moderate,High,Moderate,Moderate,Favorable
+U0151,32,Female,Employed,In-person,7.47,0.37,7.1,7.65,1,10,37,1.7,0.51,2.21,Old,Moderate,Low,High,Very Long,Low,Not Favorable
+U0152,32,Female,Employed,In-person,8.97,1.93,7.04,8.09,2,8,51,29.9,0.17,0.96,Old,Moderate,High,High,Very Long,Moderate,Favorable
+U0153,24,Male,Student,In-person,7.98,0.7,7.28,7.12,1,9,50,7.9,0.14,0.33,Younger,Moderate,Moderate,High,Long,Moderate,Not Favorable
+U0154,31,Male,,Hybrid,7.22,1.48,5.74,6.19,1,7,48,9.6,0.3,2.04,Old,Low,High,Moderate,Short,Moderate,Not Favorable
+U0155,32,Male,Employed,In-person,7.16,1.04,6.12,8.02,2,5,77,59.8,0.41,2.16,Old,Low,Moderate,Moderate,Very Long,Very High,Favorable
+U0156,24,Female,Student,Remote,16.29,5.9,10.39,6.5,1,10,33,4.8,0.27,1.04,Younger,Very High,Very High,Very High,Moderate,Low,Not Favorable
+U0157,44,Female,Employed,Hybrid,9.52,0.48,9.04,5.56,1,9,44,0.6,0.02,1.41,Older,High,Low,Very High,Short,Moderate,Not Favorable
+U0158,33,Male,Self-employed,Remote,12.39,3.06,9.33,6.57,1,10,37,7.7,0.52,1.31,Old,Very High,Very High,Very High,Moderate,Low,Not Favorable
+U0159,20,Male,,Remote,8.8,4.08,4.72,5.71,1,7,58,16.0,0.13,2.54,Younger,Moderate,Very High,Low,Short,High,Favorable
+U0160,35,Male,Employed,Hybrid,8.99,0.51,8.48,6.57,1,8,55,20.2,0.21,0.59,Old,Moderate,Low,Very High,Moderate,High,Favorable
+U0161,22,Male,Employed,Hybrid,9.69,1.16,8.53,6.14,1,10,45,0.0,0.08,1.5,Younger,High,Moderate,Very High,Short,Moderate,Not Favorable
+U0162,36,Female,Student,Hybrid,9.75,0.49,9.26,7.64,2,10,52,13.0,0.69,0.87,Older,High,Low,Very High,Long,High,Not Favorable
+U0163,39,Male,,Remote,12.67,6.76,5.91,6.68,2,10,43,16.7,0.25,0.34,Older,Very High,Very High,Moderate,Moderate,Moderate,Favorable
+U0164,23,Female,Student,Remote,12.06,6.27,5.79,5.49,1,10,43,0.0,0.05,0.59,Younger,Very High,Very High,Moderate,Short,Low,Not Favorable
+U0165,37,Female,,Remote,7.64,3.89,3.75,8.03,2,5,70,48.9,0.42,1.96,Older,Moderate,Very High,Low,Very Long,Very High,Favorable
+U0166,33,Female,Employed,Hybrid,10.26,1.07,9.19,5.74,1,10,42,0.0,0.36,1.69,Old,High,Moderate,Very High,Short,Low,Not Favorable
+U0167,36,Female,Employed,Remote,5.57,1.06,4.51,7.89,3,6,73,58.5,0.27,2.2,Older,Low,Moderate,Low,Very Long,Very High,Favorable
+U0168,45,Female,Employed,Remote,8.32,2.99,5.33,6.65,1,8,49,22.6,0.41,1.44,Older,Moderate,High,Low,Moderate,Moderate,Favorable
+U0169,28,Female,Student,Hybrid,10.63,1.09,9.54,6.49,1,6,50,18.0,0.08,1.34,Young,Very High,Moderate,Very High,Moderate,Moderate,Favorable
+U0170,23,Male,Student,Hybrid,11.09,1.18,9.91,7.07,1,10,44,0.0,0.13,0.79,Younger,Very High,Moderate,Very High,Long,Moderate,Not Favorable
+U0171,22,Female,Student,Hybrid,6.55,0.33,6.22,7.75,1,8,61,19.9,0.0,0.37,Younger,Low,Low,Moderate,Very Long,High,Favorable
+U0172,23,Male,Student,Remote,10.33,4.76,5.57,7.85,1,7,57,28.3,0.0,0.74,Younger,High,Very High,Moderate,Very Long,High,Favorable
+U0173,29,Female,Employed,Hybrid,9.98,1.34,8.64,6.83,1,10,35,8.3,0.53,1.43,Young,High,Moderate,Very High,Moderate,Low,Not Favorable
+U0174,32,Female,Employed,In-person,7.99,0.4,7.59,7.47,1,9,57,28.9,0.54,1.37,Old,Moderate,Low,High,Long,High,Favorable
+U0175,32,Male,Student,Remote,11.22,3.89,7.33,6.39,1,10,39,0.0,0.23,1.03,Old,Very High,Very High,High,Short,Low,Not Favorable
+U0176,36,Female,,Hybrid,4.1,0.21,3.89,7.99,1,4,79,45.3,0.6,1.11,Older,Low,Low,Low,Very Long,Very High,Favorable
+U0177,30,Female,Self-employed,Remote,10.48,5.65,4.83,7.18,1,10,36,0.0,0.2,3.41,Young,High,Very High,Low,Long,Low,Not Favorable
+U0178,41,Female,,Remote,8.57,1.57,7.0,7.15,1,8,52,17.4,0.23,1.53,Older,Moderate,High,High,Long,High,Favorable
+U0179,27,Female,,Remote,8.16,2.48,5.68,5.7,1,6,62,30.0,0.26,1.59,Young,Moderate,High,Moderate,Short,High,Favorable
+U0180,51,Non-binary/Other,Student,Remote,16.36,3.01,13.35,6.42,1,10,24,0.0,0.15,0.79,Older,Very High,High,Very High,Moderate,Low,Not Favorable
+U0181,35,Female,Employed,Hybrid,4.56,0.57,3.99,8.06,2,6,75,47.3,0.28,1.37,Old,Low,Low,Low,Very Long,Very High,Favorable
+U0182,23,Male,Employed,Hybrid,9.88,1.74,8.14,6.3,1,10,51,15.0,0.42,1.51,Younger,High,High,High,Short,Moderate,Favorable
+U0183,21,Female,Employed,Hybrid,7.35,0.94,6.41,6.18,1,8,53,8.2,0.29,1.46,Younger,Low,Moderate,Moderate,Short,High,Not Favorable
+U0184,33,Male,Student,In-person,6.92,0.5,6.42,8.57,2,5,79,44.5,0.4,0.0,Old,Low,Low,Moderate,Very Long,Very High,Favorable
+U0185,28,Male,Self-employed,In-person,7.05,0.35,6.7,7.72,1,6,59,32.0,0.45,0.0,Young,Low,Low,Moderate,Very Long,High,Favorable
+U0186,35,Male,Student,Hybrid,12.92,2.51,10.41,6.33,1,10,43,0.2,0.26,0.26,Old,Very High,High,Very High,Short,Moderate,Not Favorable
+U0187,33,Female,Student,In-person,11.06,2.88,8.18,5.86,1,10,28,0.0,0.06,1.06,Old,Very High,High,High,Short,Low,Not Favorable
+U0188,29,Female,Employed,Remote,10.75,6.43,4.32,6.12,1,7,66,28.6,0.0,1.11,Young,Very High,Very High,Low,Short,Very High,Favorable
+U0189,23,Female,Employed,Remote,12.27,6.71,5.56,7.53,1,10,48,0.0,0.22,1.79,Younger,Very High,Very High,Moderate,Long,Moderate,Not Favorable
+U0190,17,Male,Employed,Remote,13.51,2.03,11.48,6.35,1,10,36,0.0,0.14,0.0,Younger,Very High,High,Very High,Short,Low,Not Favorable
+U0191,26,Male,Student,Hybrid,10.19,0.84,9.35,6.39,1,10,30,0.0,0.24,0.49,Young,High,Moderate,Very High,Short,Low,Not Favorable
+U0192,36,Male,Self-employed,In-person,7.02,0.71,6.31,7.81,2,6,69,36.1,0.28,2.23,Older,Low,Moderate,Moderate,Very Long,Very High,Favorable
+U0193,31,Female,Employed,Remote,7.34,2.24,5.1,6.66,1,9,41,16.1,0.7,1.34,Old,Low,High,Low,Moderate,Low,Favorable
+U0194,20,Male,Student,In-person,10.4,0.54,9.86,7.94,1,10,45,0.0,0.0,1.53,Younger,High,Low,Very High,Very Long,Moderate,Not Favorable
+U0195,31,Male,Self-employed,Remote,10.82,4.01,6.81,7.87,2,10,50,19.3,0.0,2.33,Old,Very High,Very High,High,Very Long,Moderate,Favorable
+U0196,33,Female,,In-person,5.85,0.58,5.27,7.18,1,7,54,20.3,0.35,0.29,Old,Low,Low,Low,Long,High,Favorable
+U0197,22,Female,Self-employed,Remote,10.95,2.64,8.31,6.17,1,10,48,7.6,0.15,0.83,Younger,Very High,High,High,Short,Moderate,Not Favorable
+U0198,31,Male,Self-employed,Remote,8.08,3.75,4.33,5.1,1,7,62,30.6,0.31,0.8,Old,Moderate,Very High,Low,Short,High,Favorable
+U0199,30,Male,Employed,Hybrid,11.65,0.58,11.07,5.47,1,10,46,0.8,0.31,0.0,Young,Very High,Low,Very High,Short,Moderate,Not Favorable
+U0200,20,Male,Employed,Hybrid,8.93,1.62,7.31,5.89,1,10,44,0.0,0.45,0.99,Younger,Moderate,High,High,Short,Moderate,Not Favorable
+U0201,32,Female,Student,Remote,11.79,7.06,4.73,6.76,1,10,31,0.0,0.0,1.74,Old,Very High,Very High,Low,Moderate,Low,Not Favorable
+U0202,34,Male,Employed,Hybrid,6.09,0.59,5.5,7.27,2,8,66,27.5,0.2,1.7,Old,Low,Low,Moderate,Long,Very High,Favorable
+U0203,38,Female,Employed,In-person,8.64,1.15,7.49,6.11,1,6,57,29.4,0.33,1.83,Older,Moderate,Moderate,High,Short,High,Favorable
+U0204,38,Female,Employed,Hybrid,7.71,0.87,6.84,7.1,1,6,52,24.6,0.4,1.06,Older,Moderate,Moderate,High,Long,High,Favorable
+U0205,18,Female,Employed,Hybrid,10.68,0.88,9.8,7.08,1,10,50,6.2,0.57,0.44,Younger,Very High,Moderate,Very High,Long,Moderate,Not Favorable
+U0206,22,Male,Employed,Hybrid,8.73,0.65,8.08,7.43,1,9,59,26.0,0.4,1.87,Younger,Moderate,Low,High,Long,High,Favorable
+U0207,34,Male,Student,Hybrid,7.3,0.72,6.58,5.83,1,9,47,0.0,0.27,0.91,Old,Low,Moderate,Moderate,Short,Moderate,Not Favorable
+U0208,34,Male,Student,Remote,10.89,7.48,3.41,6.7,1,10,54,9.8,0.08,1.36,Old,Very High,Very High,Low,Moderate,High,Not Favorable
+U0209,34,Female,Employed,Hybrid,11.14,1.56,9.58,5.66,1,9,43,0.0,0.13,1.49,Old,Very High,High,Very High,Short,Low,Not Favorable
+U0210,60,Male,Student,Remote,12.56,2.93,9.63,7.54,1,10,36,0.0,0.13,2.27,Older,Very High,High,Very High,Long,Low,Not Favorable
+U0211,34,Female,Self-employed,Remote,11.96,6.74,5.22,7.27,1,9,39,3.3,0.32,1.46,Old,Very High,Very High,Low,Long,Low,Not Favorable
+U0212,39,Male,Employed,Hybrid,11.15,0.56,10.59,6.1,1,9,54,6.5,0.27,0.01,Older,Very High,Low,Very High,Short,High,Not Favorable
+U0213,37,Female,Employed,Remote,5.28,3.59,1.69,7.07,2,6,65,38.8,0.09,0.64,Older,Low,Very High,Low,Long,Very High,Favorable
+U0214,35,Female,Employed,Hybrid,7.32,1.08,6.24,6.98,1,9,54,19.1,0.2,1.9,Old,Low,Moderate,Moderate,Moderate,High,Favorable
+U0215,27,Female,Self-employed,Hybrid,9.39,0.47,8.92,5.16,1,10,40,5.9,0.39,1.29,Young,High,Low,Very High,Short,Low,Not Favorable
+U0216,36,Female,Employed,Remote,11.12,4.7,6.42,7.06,1,8,45,13.0,0.28,0.61,Older,Very High,Very High,Moderate,Long,Moderate,Not Favorable
+U0217,23,Male,Employed,Hybrid,3.49,0.52,2.97,7.59,3,1,100,77.7,0.41,1.77,Younger,Low,Low,Low,Long,Very High,Favorable
+U0218,28,Female,Employed,Hybrid,15.38,2.09,13.29,6.85,1,10,32,1.2,0.22,0.57,Young,Very High,High,Very High,Moderate,Low,Not Favorable
+U0219,26,Female,Employed,In-person,11.64,0.68,10.96,5.74,1,10,38,15.9,0.48,1.06,Young,Very High,Low,Very High,Short,Low,Favorable
+U0220,30,Male,Self-employed,Hybrid,9.13,0.98,8.15,6.54,1,8,57,14.5,0.29,1.73,Young,High,Moderate,High,Moderate,High,Not Favorable
+U0221,48,Female,Employed,In-person,7.48,0.48,7.0,6.25,1,6,70,29.2,0.23,0.59,Older,Moderate,Low,High,Short,Very High,Favorable
+U0222,16,Male,Employed,Hybrid,10.03,1.22,8.81,5.95,1,10,46,0.0,0.06,2.16,Younger,High,Moderate,Very High,Short,Moderate,Not Favorable
+U0223,35,Male,Self-employed,Remote,5.5,1.97,3.53,6.68,1,5,64,32.1,0.35,0.9,Old,Low,High,Low,Moderate,Very High,Favorable
+U0224,17,Male,Self-employed,Hybrid,9.53,2.23,7.3,7.64,2,10,46,0.0,0.0,1.2,Younger,High,High,High,Long,Moderate,Not Favorable
+U0225,26,Female,Employed,In-person,8.16,0.92,7.24,6.58,1,7,56,23.2,0.22,2.47,Young,Moderate,Moderate,High,Moderate,High,Favorable
+U0226,38,Male,Self-employed,Hybrid,9.32,0.8,8.52,7.18,1,7,56,15.5,0.22,0.0,Older,High,Moderate,Very High,Long,High,Favorable
+U0227,30,Male,Employed,In-person,7.42,1.06,6.36,6.98,2,3,72,43.2,0.04,1.29,Young,Moderate,Moderate,Moderate,Moderate,Very High,Favorable
+U0228,21,Female,Employed,In-person,8.06,1.85,6.21,6.09,1,8,56,18.9,0.1,1.8,Younger,Moderate,High,Moderate,Short,High,Favorable
+U0229,24,Female,Employed,Remote,9.51,2.33,7.18,6.78,1,8,49,5.7,0.37,1.59,Younger,High,High,High,Moderate,Moderate,Not Favorable
+U0230,35,Male,Employed,Remote,11.85,6.4,5.45,7.15,1,9,32,0.0,0.25,0.67,Old,Very High,Very High,Low,Long,Low,Not Favorable
+U0231,24,Male,Student,Hybrid,10.64,1.25,9.39,5.78,1,10,36,8.6,0.23,0.44,Younger,Very High,Moderate,Very High,Short,Low,Not Favorable
+U0232,31,Male,Self-employed,Hybrid,7.51,0.73,6.78,7.93,2,7,58,20.1,0.32,1.74,Old,Moderate,Moderate,High,Very Long,High,Favorable
+U0233,30,Male,Self-employed,In-person,6.2,0.31,5.89,6.79,1,6,60,16.5,0.3,2.03,Young,Low,Low,Moderate,Moderate,High,Favorable
+U0234,24,Male,Student,In-person,7.26,0.96,6.3,6.86,1,9,58,13.3,0.47,0.44,Younger,Low,Moderate,Moderate,Moderate,High,Not Favorable
+U0235,47,Female,Self-employed,Remote,10.23,3.11,7.12,7.46,1,10,44,10.1,0.27,0.1,Older,High,Very High,High,Long,Moderate,Not Favorable
+U0236,35,Female,Student,Remote,10.18,5.4,4.78,6.39,1,8,42,0.0,0.0,1.16,Old,High,Very High,Low,Short,Low,Not Favorable
+U0237,16,Female,Employed,In-person,8.98,1.47,7.51,6.94,1,7,55,24.7,0.5,1.04,Younger,Moderate,High,High,Moderate,High,Favorable
+U0238,31,Male,Employed,Hybrid,10.39,0.96,9.43,6.6,2,10,46,15.8,0.29,0.9,Old,High,Moderate,Very High,Moderate,Moderate,Favorable
+U0239,24,Female,Student,In-person,8.71,0.48,8.23,7.14,1,9,48,0.0,0.15,1.56,Younger,Moderate,Low,High,Long,Moderate,Not Favorable
+U0240,36,Male,Self-employed,Hybrid,9.04,0.45,8.59,5.2,1,9,49,10.5,0.05,1.04,Older,Moderate,Low,Very High,Short,Moderate,Not Favorable
+U0241,23,Male,Self-employed,Hybrid,7.05,1.19,5.86,5.81,1,6,69,37.1,0.33,0.0,Younger,Low,Moderate,Moderate,Short,Very High,Favorable
+U0242,29,Male,Employed,Remote,7.76,2.5,5.26,7.72,2,7,60,26.2,0.25,0.34,Young,Moderate,High,Low,Very Long,High,Favorable
+U0243,34,Female,Student,Hybrid,6.86,0.72,6.14,8.24,2,5,82,61.1,0.55,1.43,Old,Low,Moderate,Moderate,Very Long,Very High,Favorable
+U0244,36,Male,Employed,Hybrid,10.39,0.57,9.82,6.17,1,10,47,10.6,0.18,0.91,Older,High,Low,Very High,Short,Moderate,Not Favorable
+U0245,20,Female,Employed,Hybrid,10.13,0.51,9.62,6.59,1,10,38,0.0,0.08,0.0,Younger,High,Low,Very High,Moderate,Low,Not Favorable
+U0246,27,Male,,Remote,8.8,6.69,2.11,7.29,2,6,76,39.0,0.4,0.0,Young,Moderate,Very High,Low,Long,Very High,Favorable
+U0247,26,Female,Employed,In-person,8.45,1.83,6.62,7.65,2,5,72,42.2,0.4,1.19,Young,Moderate,High,Moderate,Very Long,Very High,Favorable
+U0248,24,Female,Employed,In-person,10.13,2.55,7.58,5.2,1,8,43,10.2,0.25,2.07,Younger,High,High,High,Short,Moderate,Not Favorable
+U0249,44,Male,Employed,Remote,9.61,5.75,3.86,6.39,2,10,59,21.8,0.37,1.24,Older,High,Very High,Low,Short,High,Favorable
+U0250,33,Female,Employed,Remote,12.69,5.84,6.85,6.26,1,10,51,3.4,0.19,1.59,Old,Very High,Very High,High,Short,Moderate,Not Favorable
+U0251,19,Female,Employed,Remote,11.19,4.91,6.28,7.17,1,10,41,0.0,0.24,0.86,Younger,Very High,Very High,Moderate,Long,Low,Not Favorable
+U0252,37,Male,Student,Hybrid,4.87,0.41,4.46,9.74,3,2,88,83.8,0.51,0.36,Older,Low,Low,Low,Very Long,Very High,Favorable
+U0253,46,Male,Employed,Hybrid,13.66,0.79,12.87,6.33,1,10,36,1.7,0.3,1.03,Older,Very High,Moderate,Very High,Short,Low,Not Favorable
+U0254,38,Male,Employed,Hybrid,9.8,0.65,9.15,5.88,1,8,53,11.0,0.22,1.41,Older,High,Low,Very High,Short,High,Not Favorable
+U0255,17,Male,,Remote,6.42,4.43,1.99,7.63,1,7,65,31.3,0.5,1.2,Younger,Low,Very High,Low,Long,Very High,Favorable
+U0256,26,Male,Employed,Hybrid,9.26,0.46,8.8,8.03,2,7,65,40.4,0.0,0.0,Young,High,Low,Very High,Very Long,Very High,Favorable
+U0257,40,Female,Employed,Hybrid,9.66,1.16,8.5,7.14,1,8,50,0.4,0.59,0.73,Older,High,Moderate,Very High,Long,Moderate,Not Favorable
+U0258,24,Female,,Hybrid,2.44,0.12,2.32,7.25,3,0,100,88.9,0.05,0.91,Younger,Low,Low,Low,Long,Very High,Favorable
+U0259,33,Female,Student,In-person,8.87,1.0,7.87,7.87,1,8,48,2.8,0.15,1.51,Old,Moderate,Moderate,High,Very Long,Moderate,Not Favorable
+U0260,36,Male,,Remote,8.89,2.93,5.96,7.66,2,7,65,33.6,0.25,1.9,Older,Moderate,High,Moderate,Very Long,Very High,Favorable
+U0261,22,Male,Employed,Hybrid,7.83,1.79,6.04,6.32,2,7,60,31.3,0.23,0.84,Younger,Moderate,High,Moderate,Short,High,Favorable
+U0262,29,Female,Student,Remote,14.18,2.4,11.78,6.57,1,7,48,20.4,0.34,0.76,Young,Very High,High,Very High,Moderate,Moderate,Favorable
+U0263,16,Female,Employed,Hybrid,7.64,0.55,7.09,7.91,1,6,58,19.3,0.07,1.57,Younger,Moderate,Low,High,Very Long,High,Favorable
+U0264,21,Male,Employed,In-person,8.86,0.68,8.18,7.93,1,8,50,2.1,0.28,1.73,Younger,Moderate,Low,High,Very Long,Moderate,Not Favorable
+U0265,27,Female,Student,Hybrid,8.08,1.42,6.66,7.1,1,10,43,0.0,0.16,1.19,Young,Moderate,Moderate,Moderate,Long,Low,Not Favorable
+U0266,20,Male,Employed,In-person,7.95,0.88,7.07,6.82,1,6,67,31.8,0.3,1.54,Younger,Moderate,Moderate,High,Moderate,Very High,Favorable
+U0267,43,Female,Employed,Remote,9.23,6.1,3.13,8.13,2,8,52,28.3,0.25,1.23,Older,High,Very High,Low,Very Long,High,Favorable
+U0268,18,Male,Employed,Remote,9.2,2.55,6.65,5.93,1,10,39,0.0,0.25,1.21,Younger,High,High,Moderate,Short,Low,Not Favorable
+U0269,26,Female,Student,Hybrid,11.55,0.58,10.97,6.98,1,9,56,16.1,0.11,1.03,Young,Very High,Low,Very High,Moderate,High,Favorable
+U0270,31,Male,Self-employed,Hybrid,6.15,0.37,5.78,6.39,1,7,64,19.4,0.2,1.33,Old,Low,Low,Moderate,Short,Very High,Favorable
+U0271,41,Male,,Remote,9.01,2.73,6.28,8.01,2,6,49,31.8,0.31,1.44,Older,Moderate,High,Moderate,Very Long,Moderate,Favorable
+U0272,18,Male,,Remote,5.87,3.68,2.19,7.19,1,5,62,29.6,0.44,2.17,Younger,Low,Very High,Low,Long,High,Favorable
+U0273,39,Male,Employed,Remote,10.13,5.13,5.0,7.99,2,7,47,23.7,0.14,1.49,Older,High,Very High,Low,Very Long,Moderate,Favorable
+U0274,30,Male,Student,In-person,10.57,0.53,10.04,7.21,3,7,60,44.1,0.08,0.1,Young,Very High,Low,Very High,Long,High,Favorable
+U0275,22,Male,Employed,Remote,12.39,5.27,7.12,5.48,1,10,20,0.0,0.29,1.1,Younger,Very High,Very High,High,Short,Low,Not Favorable
+U0276,33,Female,Student,Remote,19.17,12.04,7.13,6.69,1,10,28,0.0,0.1,0.0,Old,Very High,Very High,High,Moderate,Low,Not Favorable
+U0277,31,Male,Student,Remote,9.94,1.11,8.83,8.16,2,10,42,12.7,0.37,0.11,Old,High,Moderate,Very High,Very Long,Low,Not Favorable
+U0278,25,Male,Employed,Hybrid,4.47,1.04,3.43,8.39,3,3,88,80.5,0.15,1.4,Young,Low,Moderate,Low,Very Long,Very High,Favorable
+U0279,30,Female,Employed,Remote,10.54,6.2,4.34,6.21,1,8,40,3.7,0.0,0.86,Young,Very High,Very High,Low,Short,Low,Not Favorable
+U0280,26,Male,Employed,Hybrid,7.24,0.67,6.57,7.03,1,8,54,26.5,0.18,0.3,Young,Low,Low,Moderate,Moderate,High,Favorable
+U0281,30,Male,Employed,Remote,9.07,3.61,5.46,7.16,1,10,41,12.8,0.12,0.8,Young,Moderate,Very High,Low,Long,Low,Not Favorable
+U0282,35,Male,Employed,In-person,9.51,1.26,8.25,6.46,2,7,70,35.2,0.23,0.81,Old,High,Moderate,High,Moderate,Very High,Favorable
+U0283,42,Female,Employed,Remote,14.09,7.1,6.99,7.76,2,10,51,10.4,0.08,0.47,Older,Very High,Very High,High,Very Long,Moderate,Not Favorable
+U0284,20,Female,,Hybrid,5.59,1.48,4.11,7.58,2,6,75,39.4,0.41,1.91,Younger,Low,High,Low,Long,Very High,Favorable
+U0285,47,Non-binary/Other,Employed,In-person,2.44,0.29,2.15,6.04,1,6,65,28.4,0.31,2.3,Older,Low,Low,Low,Short,Very High,Favorable
+U0286,16,Male,Employed,Hybrid,8.38,0.42,7.96,7.27,2,6,75,30.9,0.26,0.73,Younger,Moderate,Low,High,Long,Very High,Favorable
+U0287,28,Female,Student,Remote,9.26,3.6,5.66,6.71,1,7,43,13.5,0.27,0.83,Young,High,Very High,Moderate,Moderate,Low,Not Favorable
+U0288,34,Male,Employed,Hybrid,12.73,2.63,10.1,6.47,1,10,30,6.4,0.23,0.0,Old,Very High,High,Very High,Moderate,Low,Not Favorable
+U0289,32,Male,Employed,Hybrid,10.2,0.51,9.69,6.6,1,10,42,0.0,0.23,1.79,Old,High,Low,Very High,Moderate,Low,Not Favorable
+U0290,25,Female,Student,Hybrid,11.67,2.83,8.84,7.25,1,8,59,15.2,0.29,1.01,Young,Very High,High,Very High,Long,High,Favorable
+U0291,28,Male,Student,In-person,9.75,2.51,7.24,7.81,2,5,66,30.6,0.1,0.76,Young,High,High,High,Very Long,Very High,Favorable
+U0292,26,Female,Employed,Hybrid,5.03,0.89,4.14,7.83,1,6,64,35.4,0.53,1.81,Young,Low,Moderate,Low,Very Long,Very High,Favorable
+U0293,25,Female,Employed,Hybrid,8.88,0.44,8.44,6.75,1,8,42,11.4,0.2,1.04,Young,Moderate,Low,Very High,Moderate,Low,Not Favorable
+U0294,36,Female,Employed,In-person,11.12,1.17,9.95,6.76,1,10,47,2.0,0.0,0.44,Older,Very High,Moderate,Very High,Moderate,Moderate,Not Favorable
+U0295,32,Male,,Hybrid,5.35,0.31,5.04,7.63,2,6,75,40.7,0.33,1.51,Old,Low,Low,Low,Long,Very High,Favorable
+U0296,24,Female,Student,Remote,10.38,4.83,5.55,6.14,1,9,49,4.0,0.08,0.26,Younger,High,Very High,Moderate,Short,Moderate,Not Favorable
+U0297,37,Female,Employed,Hybrid,10.79,0.54,10.25,7.31,1,7,46,19.1,0.34,0.84,Older,Very High,Low,Very High,Long,Moderate,Favorable
+U0298,32,Female,,In-person,7.38,1.53,5.85,7.68,2,9,49,18.1,0.64,0.99,Old,Moderate,High,Moderate,Very Long,Moderate,Favorable
+U0299,36,Male,Employed,Remote,10.13,2.61,7.52,8.17,1,8,40,9.0,0.11,1.04,Older,High,High,High,Very Long,Low,Not Favorable
+U0300,35,Male,Employed,Hybrid,6.4,0.54,5.86,8.49,1,5,66,36.9,0.35,1.23,Old,Low,Low,Moderate,Very Long,Very High,Favorable
+U0301,23,Female,Employed,Remote,8.62,3.15,5.47,6.49,1,10,38,4.9,0.0,2.21,Younger,Moderate,Very High,Moderate,Moderate,Low,Not Favorable
+U0302,25,Female,Employed,Hybrid,11.05,0.81,10.24,7.35,1,10,34,3.6,0.29,0.91,Young,Very High,Moderate,Very High,Long,Low,Not Favorable
+U0303,35,Male,,Remote,8.55,2.65,5.9,6.41,1,8,47,10.7,0.11,0.0,Old,Moderate,High,Moderate,Moderate,Moderate,Not Favorable
+U0304,34,Female,Employed,Hybrid,10.36,0.52,9.84,7.44,2,9,46,20.7,0.13,0.0,Old,High,Low,Very High,Long,Moderate,Favorable
+U0305,29,Female,Self-employed,Hybrid,6.82,0.98,5.84,6.95,1,9,48,10.0,0.09,1.17,Young,Low,Moderate,Moderate,Moderate,Moderate,Not Favorable
+U0306,30,Female,Student,Remote,12.63,1.68,10.95,5.69,1,10,41,10.7,0.32,0.27,Young,Very High,High,Very High,Short,Low,Not Favorable
+U0307,40,Female,Student,Hybrid,10.07,1.71,8.36,7.21,1,10,43,8.1,0.41,0.93,Older,High,High,High,Long,Low,Not Favorable
+U0308,25,Female,Student,In-person,10.44,1.87,8.57,4.64,1,7,52,9.4,0.22,0.79,Young,High,High,Very High,Short,High,Not Favorable
+U0309,34,Female,Employed,In-person,7.77,1.38,6.39,5.87,1,9,49,14.8,0.13,0.8,Old,Moderate,Moderate,Moderate,Short,Moderate,Not Favorable
+U0310,28,Female,Employed,Remote,8.45,2.96,5.49,6.97,2,6,60,39.6,0.52,0.0,Young,Moderate,High,Moderate,Moderate,High,Favorable
+U0311,28,Male,Self-employed,Remote,7.77,3.57,4.2,7.28,2,9,56,19.0,0.14,0.81,Young,Moderate,Very High,Low,Long,High,Favorable
+U0312,38,Female,Employed,Remote,8.56,3.17,5.39,6.9,1,9,49,8.8,0.0,1.63,Older,Moderate,Very High,Low,Moderate,Moderate,Not Favorable
+U0313,36,Male,,In-person,5.18,0.73,4.45,6.42,1,5,60,33.6,0.39,1.17,Older,Low,Moderate,Low,Moderate,High,Favorable
+U0314,36,Male,Student,In-person,9.55,1.33,8.22,6.37,1,10,49,4.6,0.06,0.0,Older,High,Moderate,High,Short,Moderate,Not Favorable
+U0315,40,Female,Self-employed,Hybrid,9.73,1.55,8.18,7.35,1,10,38,0.0,0.41,1.11,Older,High,High,High,Long,Low,Not Favorable
+U0316,30,Male,Employed,In-person,6.71,1.59,5.12,7.86,1,8,55,23.3,0.22,2.31,Young,Low,High,Low,Very Long,High,Favorable
+U0317,35,Female,Employed,Hybrid,7.17,1.87,5.3,7.36,2,5,80,51.1,0.38,1.31,Old,Low,High,Low,Long,Very High,Favorable
+U0318,27,Male,Self-employed,Hybrid,7.77,0.39,7.38,8.13,2,6,72,41.2,0.5,0.0,Young,Moderate,Low,High,Very Long,Very High,Favorable
+U0319,32,Female,Employed,Remote,11.71,3.83,7.88,6.98,1,10,40,0.0,0.01,1.47,Old,Very High,Very High,High,Moderate,Low,Not Favorable
+U0320,28,Female,Employed,In-person,10.02,0.5,9.52,6.28,1,10,40,2.1,0.14,0.0,Young,High,Low,Very High,Short,Low,Not Favorable
+U0321,30,Female,Student,Remote,13.4,4.99,8.41,6.17,1,10,43,3.1,0.17,2.01,Young,Very High,Very High,High,Short,Low,Not Favorable
+U0322,34,Non-binary/Other,Student,In-person,9.01,0.45,8.56,5.97,1,6,63,34.9,0.51,1.51,Old,Moderate,Low,Very High,Short,Very High,Favorable
+U0323,23,Female,,In-person,3.64,0.29,3.35,7.7,3,3,88,65.3,0.21,0.0,Younger,Low,Low,Low,Very Long,Very High,Favorable
+U0324,46,Male,Employed,In-person,9.17,0.46,8.71,8.07,2,7,54,16.2,0.16,1.16,Older,High,Low,Very High,Very Long,High,Favorable
+U0325,21,Female,Employed,Remote,11.2,4.76,6.44,7.18,2,8,40,21.3,0.29,1.1,Younger,Very High,Very High,Moderate,Long,Low,Favorable
+U0326,20,Male,Employed,Hybrid,9.78,1.49,8.29,7.95,1,8,49,19.3,0.13,0.27,Younger,High,High,High,Very Long,Moderate,Favorable
+U0327,39,Female,Student,Remote,8.12,5.53,2.59,7.03,1,8,52,9.7,0.3,0.81,Older,Moderate,Very High,Low,Moderate,High,Not Favorable
+U0328,36,Male,Student,Remote,9.61,3.45,6.16,8.1,2,3,84,68.4,0.0,0.29,Older,High,Very High,Moderate,Very Long,Very High,Favorable
+U0329,34,Female,Employed,Remote,13.08,2.05,11.03,6.32,1,10,40,6.6,0.56,1.13,Old,Very High,High,Very High,Short,Low,Not Favorable
+U0330,35,Female,Employed,In-person,10.7,2.18,8.52,8.02,2,8,64,26.4,0.0,0.44,Old,Very High,High,Very High,Very Long,Very High,Favorable
+U0331,29,Female,Student,Remote,10.31,6.31,4.0,6.83,1,10,38,0.0,0.17,0.0,Young,High,Very High,Low,Moderate,Low,Not Favorable
+U0332,22,Female,Employed,Hybrid,10.6,1.33,9.27,7.3,2,8,62,19.1,0.21,0.76,Younger,Very High,Moderate,Very High,Long,High,Favorable
+U0333,30,Male,Student,Remote,11.1,3.99,7.11,7.92,3,8,57,42.3,0.54,1.43,Young,Very High,Very High,High,Very Long,High,Favorable
+U0334,24,Female,Employed,Hybrid,10.12,2.4,7.72,6.67,1,10,47,0.0,0.0,0.94,Younger,High,High,High,Moderate,Moderate,Not Favorable
+U0335,37,Male,Employed,Hybrid,6.85,0.41,6.44,7.62,2,7,53,25.1,0.62,2.5,Older,Low,Low,Moderate,Long,High,Favorable
+U0336,28,Female,Employed,Hybrid,9.72,0.67,9.05,7.95,1,10,44,10.4,0.36,0.63,Young,High,Low,Very High,Very Long,Moderate,Not Favorable
+U0337,23,Male,Employed,In-person,10.6,2.29,8.31,6.63,1,9,31,0.0,0.29,1.36,Younger,Very High,High,High,Moderate,Low,Not Favorable
+U0338,27,Female,Employed,Hybrid,11.54,0.95,10.59,5.58,1,10,39,0.0,0.04,0.96,Young,Very High,Moderate,Very High,Short,Low,Not Favorable
+U0339,33,Female,Student,In-person,11.28,2.5,8.78,8.45,3,8,62,35.4,0.31,0.91,Old,Very High,High,Very High,Very Long,High,Favorable
+U0340,25,Male,Student,In-person,8.89,0.94,7.95,6.64,1,8,46,10.3,0.12,1.16,Young,Moderate,Moderate,High,Moderate,Moderate,Not Favorable
+U0341,23,Female,Employed,Remote,9.14,2.87,6.27,7.09,1,9,38,6.2,0.45,0.67,Younger,High,High,Moderate,Long,Low,Not Favorable
+U0342,31,Female,Employed,In-person,9.43,0.47,8.96,7.92,1,8,54,10.6,0.08,1.54,Old,High,Low,Very High,Very Long,High,Not Favorable
+U0343,31,Male,Employed,Remote,4.96,2.68,2.28,7.18,1,8,57,32.8,0.29,0.2,Old,Low,High,Low,Long,High,Favorable
+U0344,25,Male,Employed,In-person,4.48,1.11,3.37,6.87,1,5,67,34.0,0.21,0.69,Young,Low,Moderate,Low,Moderate,Very High,Favorable
+U0345,26,Female,Employed,Hybrid,6.34,0.78,5.56,7.61,2,6,67,33.6,0.12,1.0,Young,Low,Moderate,Moderate,Long,Very High,Favorable
+U0346,31,Female,Self-employed,In-person,10.42,2.58,7.84,5.41,1,10,58,4.9,0.35,2.19,Old,High,High,High,Short,High,Not Favorable
+U0347,18,Male,Employed,In-person,6.85,0.44,6.41,7.02,1,9,58,15.6,0.35,1.37,Younger,Low,Low,Moderate,Moderate,High,Favorable
+U0348,18,Female,Student,In-person,9.39,1.37,8.02,7.07,1,7,61,28.5,0.43,1.07,Younger,High,Moderate,High,Long,High,Favorable
+U0349,24,Female,Employed,In-person,6.67,0.53,6.14,7.12,1,8,58,23.4,0.0,0.5,Younger,Low,Low,Moderate,Long,High,Favorable
+U0350,28,Female,Student,Remote,10.19,5.48,4.71,5.62,1,10,43,0.0,0.4,1.16,Young,High,Very High,Low,Short,Moderate,Not Favorable
+U0351,32,Male,Student,Remote,13.59,5.85,7.74,7.66,1,10,23,0.0,0.6,0.86,Old,Very High,Very High,High,Very Long,Low,Not Favorable
+U0352,41,Male,,Hybrid,1.32,0.17,1.15,8.39,2,0,97,84.4,0.3,1.91,Older,Low,Low,Low,Very Long,Very High,Favorable
+U0353,36,Female,Student,Remote,14.02,7.36,6.66,7.5,1,10,34,5.2,0.5,0.26,Older,Very High,Very High,Moderate,Long,Low,Not Favorable
+U0354,28,Female,Employed,Hybrid,7.06,1.54,5.52,7.11,1,9,39,5.6,0.23,0.8,Young,Low,High,Moderate,Long,Low,Not Favorable
+U0355,29,Female,Employed,Hybrid,9.87,2.41,7.46,6.21,1,8,41,8.5,0.0,1.01,Young,High,High,High,Short,Low,Not Favorable
+U0356,21,Male,Employed,In-person,6.97,0.35,6.62,7.48,1,7,47,13.6,0.21,0.93,Younger,Low,Low,Moderate,Long,Moderate,Not Favorable
+U0357,29,Female,Employed,Hybrid,12.02,2.21,9.81,6.41,1,10,39,12.0,0.38,1.67,Young,Very High,High,Very High,Moderate,Low,Not Favorable
+U0358,27,Female,Student,In-person,6.9,0.77,6.13,6.39,1,7,63,28.3,0.13,0.21,Young,Low,Moderate,Moderate,Short,High,Favorable
+U0359,32,Male,Employed,Remote,5.74,1.57,4.17,8.73,2,4,84,47.2,0.2,1.74,Old,Low,High,Low,Very Long,Very High,Favorable
+U0360,23,Female,Employed,In-person,10.97,1.43,9.54,6.19,1,9,46,0.4,0.31,1.76,Younger,Very High,Moderate,Very High,Short,Moderate,Not Favorable
+U0361,34,Male,Student,In-person,10.24,0.51,9.73,5.43,1,10,36,0.0,0.24,0.94,Old,High,Low,Very High,Short,Low,Not Favorable
+U0362,42,Female,Employed,Hybrid,6.26,0.94,5.32,8.64,2,3,67,57.1,0.4,0.39,Older,Low,Moderate,Low,Very Long,Very High,Favorable
+U0363,29,Female,Student,Hybrid,11.49,0.75,10.74,6.26,1,10,30,0.0,0.25,1.09,Young,Very High,Moderate,Very High,Short,Low,Not Favorable
+U0364,33,Female,Student,In-person,10.39,0.52,9.87,6.39,1,10,34,0.0,0.31,1.19,Old,High,Low,Very High,Short,Low,Not Favorable
+U0365,35,Male,Employed,Remote,8.72,2.36,6.36,5.73,1,10,39,3.3,0.19,0.96,Old,Moderate,High,Moderate,Short,Low,Not Favorable
+U0366,26,Male,Student,Remote,11.58,5.71,5.87,8.02,3,9,52,22.3,0.25,0.81,Young,Very High,Very High,Moderate,Very Long,High,Favorable
+U0367,31,Male,Employed,Hybrid,7.73,1.52,6.21,6.22,1,7,51,20.7,0.11,2.34,Old,Moderate,High,Moderate,Short,High,Favorable
+U0368,30,Female,Employed,Remote,11.64,6.11,5.53,6.7,2,10,48,8.2,0.42,0.29,Young,Very High,Very High,Moderate,Moderate,Moderate,Not Favorable
+U0369,30,Male,Self-employed,Remote,8.06,2.81,5.25,7.92,2,6,63,37.3,0.15,0.0,Young,Moderate,High,Low,Very Long,Very High,Favorable
+U0370,23,Female,Student,Remote,9.05,3.83,5.22,7.31,1,7,54,18.5,0.43,1.36,Younger,Moderate,Very High,Low,Long,High,Favorable
+U0371,30,Female,Student,Remote,12.03,4.84,7.19,6.55,1,10,46,1.2,0.16,1.99,Young,Very High,Very High,High,Moderate,Moderate,Not Favorable
+U0372,33,Male,Student,Remote,11.21,4.81,6.4,5.39,1,10,34,0.5,0.25,1.13,Old,Very High,Very High,Moderate,Short,Low,Not Favorable
+U0373,41,Female,Employed,In-person,10.37,0.81,9.56,6.31,1,10,45,3.0,0.16,0.26,Older,High,Moderate,Very High,Short,Moderate,Not Favorable
+U0374,37,Female,Employed,Hybrid,5.98,0.5,5.48,7.72,2,5,72,43.3,0.13,0.71,Older,Low,Low,Moderate,Very Long,Very High,Favorable
+U0375,47,Female,Student,In-person,7.77,0.96,6.81,6.77,1,10,44,0.0,0.0,0.0,Older,Moderate,Moderate,High,Moderate,Moderate,Not Favorable
+U0376,23,Female,,Hybrid,10.19,2.64,7.55,6.96,1,8,56,13.8,0.05,1.59,Younger,High,High,High,Moderate,High,Not Favorable
+U0377,36,Female,Student,Remote,11.61,5.33,6.28,7.26,2,8,59,25.1,0.16,0.0,Older,Very High,Very High,Moderate,Long,High,Favorable
+U0378,31,Male,Employed,Hybrid,6.03,0.79,5.24,8.28,2,3,76,50.5,0.33,1.34,Old,Low,Moderate,Low,Very Long,Very High,Favorable
+U0379,47,Female,Employed,Hybrid,5.0,0.67,4.33,6.84,1,6,63,27.3,0.49,0.66,Older,Low,Low,Low,Moderate,High,Favorable
+U0380,23,Male,Self-employed,Remote,9.62,4.12,5.5,8.64,2,8,56,23.8,0.16,1.31,Younger,High,Very High,Moderate,Very Long,High,Favorable
+U0381,23,Male,Employed,Hybrid,14.02,3.21,10.81,6.84,3,10,47,10.2,0.02,0.94,Younger,Very High,Very High,Very High,Moderate,Moderate,Not Favorable
+U0382,25,Female,Self-employed,Remote,14.07,4.54,9.53,6.24,1,10,40,5.8,0.0,0.83,Young,Very High,Very High,Very High,Short,Low,Not Favorable
+U0383,16,Female,Employed,Hybrid,7.41,1.01,6.4,8.02,3,4,81,67.8,0.33,1.03,Younger,Moderate,Moderate,Moderate,Very Long,Very High,Favorable
+U0384,25,Female,Self-employed,Hybrid,7.63,1.13,6.5,9.1,4,4,97,71.0,0.49,0.71,Young,Moderate,Moderate,Moderate,Very Long,Very High,Favorable
+U0385,23,Male,Student,Remote,10.23,6.7,3.53,5.64,1,10,33,8.8,0.43,1.61,Younger,High,Very High,Low,Short,Low,Not Favorable
+U0386,31,Female,Self-employed,Remote,10.44,3.97,6.47,6.66,1,7,50,16.7,0.35,0.91,Old,High,Very High,Moderate,Moderate,Moderate,Favorable
+U0387,32,Male,Employed,In-person,5.84,0.4,5.44,5.64,1,10,43,7.0,0.4,0.96,Old,Low,Low,Low,Short,Moderate,Not Favorable
+U0388,45,Female,Self-employed,Hybrid,8.62,1.94,6.68,7.41,1,9,49,7.1,0.55,2.64,Older,Moderate,High,Moderate,Long,Moderate,Not Favorable
+U0389,37,Male,Employed,Remote,10.34,3.55,6.79,7.21,1,10,32,4.5,0.29,1.36,Older,High,Very High,High,Long,Low,Not Favorable
+U0390,25,Female,Employed,In-person,10.47,1.05,9.42,6.75,2,10,50,16.8,0.33,0.9,Young,High,Moderate,Very High,Moderate,Moderate,Favorable
+U0391,22,Female,Employed,Remote,11.79,6.19,5.6,6.03,1,10,36,0.0,0.15,1.67,Younger,Very High,Very High,Moderate,Short,Low,Not Favorable
+U0392,33,Male,Employed,Hybrid,7.49,1.21,6.28,5.67,1,7,51,7.7,0.05,2.51,Old,Moderate,Moderate,Moderate,Short,Moderate,Not Favorable
+U0393,19,Male,Student,In-person,10.75,0.84,9.91,6.98,1,9,34,0.0,0.1,1.29,Younger,Very High,Moderate,Very High,Moderate,Low,Not Favorable
+U0394,44,Female,Student,Remote,10.97,4.21,6.76,8.06,1,10,38,1.9,0.24,1.34,Older,Very High,Very High,High,Very Long,Low,Not Favorable
+U0395,39,Male,Student,Remote,14.0,6.2,7.8,5.92,1,10,43,5.7,0.2,0.1,Older,Very High,Very High,High,Short,Low,Not Favorable
+U0396,26,Female,Student,Remote,6.43,2.99,3.44,7.75,1,5,64,39.3,0.6,1.09,Young,Low,High,Low,Very Long,Very High,Favorable
+U0397,16,Male,Self-employed,Remote,9.59,5.44,4.15,5.57,1,10,47,3.5,0.24,1.0,Younger,High,Very High,Low,Short,Moderate,Not Favorable
+U0398,40,Male,Student,Remote,8.72,2.36,6.36,7.56,1,9,57,6.6,0.46,1.44,Older,Moderate,High,Moderate,Long,High,Not Favorable
+U0399,29,Female,,Hybrid,5.04,0.94,4.1,7.32,1,7,63,21.0,0.23,1.73,Young,Low,Moderate,Low,Long,Very High,Favorable
+U0400,39,Female,Employed,Remote,8.86,3.82,5.04,6.55,1,10,41,8.4,0.21,1.4,Older,Moderate,Very High,Low,Moderate,Low,Not Favorable
